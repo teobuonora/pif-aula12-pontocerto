@@ -1,3 +1,4 @@
+#Téo Buonora e João Cassimiro
 # Programa de Pontos PontoCerto: regras que viram valores
 
 **Programação Imperativa e Funcional · Aula 12 · Funções de primeira classe e lambdas**
