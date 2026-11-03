@@ -4,8 +4,8 @@
 
 | Papel | Nome completo | Usuário do GitHub |
 |---|---|---|
-| Integrante 1 (dono do fork) | | |
-| Integrante 2 (colaborador) | | |
+| Integrante 1 (dono do fork) |Téo Buonora |teobuonora |
+| Integrante 2 (colaborador) |João Cassimiro |joaogabrielcassiimiro-png |
 
 ## Explicação da solução
 
