@@ -35,7 +35,8 @@ Devolve uma função (especificamente, uma função que recebe um Int e devolve 
 | 4 | | | | |
 
 ## Desafio 6 — Haskell × C
-
+1. Em C, é necessário usar a sintaxe de ponteiros (*regra) explicitamente na declaração, enquanto em Haskell as funções são cidadãs de primeira classe com tipos nativos (Int -> Int).
+2. Em C, os tipos e a implementação ficam juntos na declaração da função int calculaPontos(int (*regra)(int), int valor), enquanto em Haskell a assinatura de tipo fica em uma linha separada da lógica.
 <!-- Cite duas diferenças entre o calculaPontos em Haskell e o calculaPontos em C. -->
 
 ## Evidência de execução
