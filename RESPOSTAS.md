@@ -29,10 +29,10 @@ Devolve uma função (especificamente, uma função que recebe um Int e devolve 
 
 | Erro | Função | O que estava errado | Como o GHC avisou (resumo da mensagem) | Como corrigimos |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 |aplicaRegraDuasVezes |A assinatura indicava Int -> Int -> Int, dizendo que o primeiro argumento era um número comum, mas o código tentava usar ele como função. |Ocorreu um erro dizendo que não podia aplicar um Int como se fosse uma função (Expected a function of type... Actual type: Int). |Colocamos parênteses na assinatura para agrupar o tipo da função: (Int -> Int) -> Int -> Int. |
+| 2 |fimDeSemana |A seta da lambda estava desenhada como => em vez de ->. |Erro de sintaxe acusando falha no parse (parse error on input =>). |Trocamos => pela seta correta de lambdas ->. |
+| 3 |natal |A fábrica campanhaBonus foi guardada na variável sem o parâmetro (o valor do bônus). |Erro de tipo informando que a função esperava um tipo e recebeu outro que pedia mais um argumento (Couldn't match expected type). |Passamos o argumento 300 para a fábrica: natal = campanhaBonus 300. |
+| 4 |promocaoAtual |Foi passado o argumento 100 diretamente na criação da variável. Isso fez ela ser calculada e virar um número (Int), mas a assinatura dizia que ela deveria ser uma função. |Erro de tipo informando que esperava uma função Int -> Int, mas encontrou um Int comum. |Removemos o 100, deixando apenas a função: promocaoAtual = pontosEmDobro. |
 
 ## Desafio 6 — Haskell × C
 1. Em C, é necessário usar a sintaxe de ponteiros (*regra) explicitamente na declaração, enquanto em Haskell as funções são cidadãs de primeira classe com tipos nativos (Int -> Int).
