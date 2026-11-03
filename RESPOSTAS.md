@@ -44,17 +44,38 @@ Devolve uma função (especificamente, uma função que recebe um Int e devolve 
 Saída do `main` de `fidelidade.hs`:
 
 ```text
-(cole aqui)
+120
+240
+170
+240
+80
+160
+130
+240
+170
+750
+350
+100
+55
+950
+1750
+280
 ```
 
 Saída do `main` de `revisao.hs` (depois de corrigido):
 
 ```text
-(cole aqui)
+40
+100
+400
+200
 ```
 
 Saída de `pontocerto.c`:
 
 ```text
-(cole aqui)
+160
+130
+250
+300
 ```
